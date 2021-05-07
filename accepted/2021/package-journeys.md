@@ -9,27 +9,19 @@ This builds upon the foundation laid by [Jon Douglas](https://github.com/JonDoug
 ## Summary
 
 <!-- One-paragraph description of the proposal. -->
-With over 240,000 unique NuGet packages and over 3,000,000 package versions available to download, developers face an even harder challenge of being able to validate the quality of a package to be used in their projects.
+With over 240,000 unique NuGet packages and over 3,000,000 package versions available to download, developers may encounter difficulty understanding the quality and "fit for use" of a package for use in their projects. The quality of a package is multi-faceted and is influenced by a range of considerations across usage/popularity, activity, adherence to known good practices, risk management, and responsiveness to its community.
 
-There's many challenges to the quality of a package such as how many dependencies the package takes on, the amount of downloads the package has, and being maintained by a large company to name a few.
+Simultaneously, a vibrant and sustained ecosystem of open-source work is crucial to the success of .NET as a platform and to a mission to empower all developers. Wherever possible, we want to enable developers and maintainers to produce their best work so that the entire community benefits and that community-maintained packages remain a foundational source of value to the .NET platform.
 
-NuGet has many different types of packages such as frameworks, dependencies, tools, templates, and many more. With each package, there is metadata & package contents that are used to help define the overall package.
-
-A high quality or "healthy" package is one that follows the following characteristics:
-
-- **It is actively maintained.** Either with recent commits or an annual update/notice that the package is up-to-date.
-- **It is documented.** It provides enough documentation to install, get started, and has public API documentation on it's members.
-- **It has a way to report bugs.** It provides a centralized location or repository in which issues are regularly triaged & resolved in future releases.
-- **It resolves security flaws quickly.** It fixes known vulnerabilities & releases an unaffected release quickly.
-- **It is not deprecated.** It is in an active state meeting all the criteria above.
-
-This is a small list of the many different characteristics that may make a package of high quality or "healthy".
-
-Having packages of high quality that depend on other packages of high quality will make the overall software supply chain of higher quality and thus more secure & reliable for those using .NET tooling.
-
-This proposal introduces the concept known as Package Scoring or NET Score for short.
+This proposal introduces the concept known as Package Journeys which hopes to support this outcome.
 
 ## Motivation
+
+A transparent and nuanced understanding of packages will benefit the entire ecosystem, in that:
+
+* **Package consumers** will have an improved experience working with .NET in general the more we improve the overall supply chain. "A rising tide lifts all boats."
+* **Community package maintainers** will gain insight into improvements they may want to make in their packages.
+* **Package consumers** and **community contributors** will gain insight into ways that they might be able to contribute to the success of their supply chain via financial contributions, maintenance support, or specific expertise to move a project forward.
 
 <!-- Why are we doing this? What pain points does this solve? What is the expected outcome? -->
 
