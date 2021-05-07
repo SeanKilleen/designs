@@ -1,6 +1,6 @@
 # Package Journeys (NET Score)
 
-**Owner** [Sean Killeen](https://github.com/JonDouglas)
+**Owner** [Sean Killeen](https://github.com/SeanKilleen)
 
 ## Acknowledgements
 
